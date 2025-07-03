@@ -1,0 +1,10 @@
+[flake8]
+# チェックから除外するフォルダを指定
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    .venv
+
+# 1行の最大文字数を設定（任意）
+max-line-length = 119
